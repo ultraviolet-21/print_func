@@ -44,7 +44,7 @@ class MyRange:
 
     def __getitem__(self, index):
         if type(index) is int:
-            if not 0 <= index < len(self):
+            if not 0 <= index < len(self): #one difference between this and regular ranges is that regular ranges can be indexed with negative numbers
                 raise IndexError
             else:
                 return self._start + index * self._step
