@@ -1,1 +1,1 @@
-# Recreating the print function so that it returns rather than printing to the standard output
+# Recreating built-in Python functions like print, range, and more
